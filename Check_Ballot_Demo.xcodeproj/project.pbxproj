@@ -89,7 +89,7 @@
 		9B7B03DE2475DBF300D34020 = {
 			isa = PBXGroup;
 			children = (
-				9B7B03E92475DBF300D34020 /* Lobe_iOS */,
+				9B7B03E92475DBF300D34020 /* Check_Ballot_Demo */,
 				B5B2D938260A4D5B00BABFAB /* LobeModel.mlmodel */,
 				B513D84325809D62009D91E2 /* LobeTests */,
 				9B7B03E82475DBF300D34020 /* Products */,
@@ -106,7 +106,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9B7B03E92475DBF300D34020 /* Lobe_iOS */ = {
+		9B7B03E92475DBF300D34020 /* Check_Ballot_Demo */ = {
 			isa = PBXGroup;
 			children = (
 				B56240FA257ED11B00709520 /* Views */,
@@ -121,7 +121,7 @@
 				9B7B03F82475DBF600D34020 /* Info.plist */,
 				9B7B03F22475DBF600D34020 /* Preview Content */,
 			);
-			path = Lobe_iOS;
+			path = Check_Ballot_Demo;
 			sourceTree = "<group>";
 		};
 		9B7B03F22475DBF600D34020 /* Preview Content */ = {
@@ -176,9 +176,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9B7B03E62475DBF300D34020 /* Lobe_iOS */ = {
+		9B7B03E62475DBF300D34020 /* Check_Ballot_Demo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9B7B03FB2475DBF600D34020 /* Build configuration list for PBXNativeTarget "Lobe_iOS" */;
+			buildConfigurationList = 9B7B03FB2475DBF600D34020 /* Build configuration list for PBXNativeTarget "Check_Ballot_Demo" */;
 			buildPhases = (
 				9B7B03E32475DBF300D34020 /* Sources */,
 				9B7B03E42475DBF300D34020 /* Frameworks */,
@@ -188,7 +188,7 @@
 			);
 			dependencies = (
 			);
-			name = Lobe_iOS;
+			name = Check_Ballot_Demo;
 			productName = Lobe_iOS;
 			productReference = 9B7B03E72475DBF300D34020 /* Lobe.app */;
 			productType = "com.apple.product-type.application";
@@ -243,7 +243,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9B7B03E62475DBF300D34020 /* Lobe_iOS */,
+				9B7B03E62475DBF300D34020 /* Check_Ballot_Demo */,
 				B513D84125809D62009D91E2 /* LobeTests */,
 			);
 		};
@@ -305,7 +305,7 @@
 /* Begin PBXTargetDependency section */
 		B513D84825809D62009D91E2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9B7B03E62475DBF300D34020 /* Lobe_iOS */;
+			target = 9B7B03E62475DBF300D34020 /* Check_Ballot_Demo */;
 			targetProxy = B513D84725809D62009D91E2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -540,7 +540,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9B7B03FB2475DBF600D34020 /* Build configuration list for PBXNativeTarget "Lobe_iOS" */ = {
+		9B7B03FB2475DBF600D34020 /* Build configuration list for PBXNativeTarget "Check_Ballot_Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9B7B03FC2475DBF600D34020 /* Debug */,
