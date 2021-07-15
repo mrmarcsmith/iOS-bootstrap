@@ -43,7 +43,7 @@
 		76CDE1A3247F2E6D0096E882 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; tabWidth = 2; };
 		76ED73F2248987E3003B4F6B /* CaptureSessionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureSessionViewController.swift; sourceTree = "<group>"; };
 		76ED73F4248988AE003B4F6B /* PredictionLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredictionLabelView.swift; sourceTree = "<group>"; };
-		9B7B03E72475DBF300D34020 /* Lobe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lobe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B7B03E72475DBF300D34020 /* Check Ballot Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Check Ballot Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B7B03EA2475DBF300D34020 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9B7B03EC2475DBF300D34020 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		9B7B03EE2475DBF300D34020 /* PlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayView.swift; sourceTree = "<group>"; };
@@ -61,7 +61,7 @@
 		B55A1ED725760BAC003EE8AD /* PredictionLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredictionLayer.swift; sourceTree = "<group>"; };
 		B55D41452599BB48007C9DBF /* CaptureSessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureSessionManager.swift; sourceTree = "<group>"; };
 		B5A30D2D260960DE0097EED3 /* Prediction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prediction.swift; sourceTree = "<group>"; };
-		B5A9B5232557372800FD595B /* Lobe.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Lobe.entitlements; sourceTree = "<group>"; };
+		B5A9B5232557372800FD595B /* Check_Ballot_Demo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Check_Ballot_Demo.entitlements; sourceTree = "<group>"; };
 		B5A9B5262557373E00FD595B /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		B5B2D938260A4D5B00BABFAB /* LobeModel.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = LobeModel.mlmodel; sourceTree = "<group>"; };
 		B5BB1F6A2609AA73004AB6A2 /* PredictionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredictionsView.swift; sourceTree = "<group>"; };
@@ -100,7 +100,7 @@
 		9B7B03E82475DBF300D34020 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9B7B03E72475DBF300D34020 /* Lobe.app */,
+				9B7B03E72475DBF300D34020 /* Check Ballot Demo.app */,
 				B513D84225809D62009D91E2 /* LobeTests.xctest */,
 			);
 			name = Products;
@@ -113,7 +113,7 @@
 				B55C4E1325D4F7820075F68B /* Models */,
 				B5173D5625774E990065A01F /* PlayViewModel.swift */,
 				76ED73F2248987E3003B4F6B /* CaptureSessionViewController.swift */,
-				B5A9B5232557372800FD595B /* Lobe.entitlements */,
+				B5A9B5232557372800FD595B /* Check_Ballot_Demo.entitlements */,
 				9B7B03EA2475DBF300D34020 /* AppDelegate.swift */,
 				9B7B03F52475DBF600D34020 /* LaunchScreen.storyboard */,
 				9B7B03EC2475DBF300D34020 /* SceneDelegate.swift */,
@@ -190,7 +190,7 @@
 			);
 			name = Check_Ballot_Demo;
 			productName = Lobe_iOS;
-			productReference = 9B7B03E72475DBF300D34020 /* Lobe.app */;
+			productReference = 9B7B03E72475DBF300D34020 /* Check Ballot Demo.app */;
 			productType = "com.apple.product-type.application";
 		};
 		B513D84125809D62009D91E2 /* LobeTests */ = {
@@ -442,20 +442,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = Lobe_iOS/Lobe.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Check_Ballot_Demo/Check_Ballot_Demo.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Lobe_iOS/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Check_Ballot_Demo/Preview Content\"";
 				DEVELOPMENT_TEAM = 8GRF9YDEDH;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Lobe_iOS/Info.plist;
+				INFOPLIST_FILE = Check_Ballot_Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mindmissiles.check-ballot-demo";
-				PRODUCT_NAME = Lobe;
+				PRODUCT_NAME = "Check Ballot Demo";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -466,20 +466,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = Lobe_iOS/Lobe.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Check_Ballot_Demo/Check_Ballot_Demo.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Lobe_iOS/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Check_Ballot_Demo/Preview Content\"";
 				DEVELOPMENT_TEAM = 8GRF9YDEDH;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Lobe_iOS/Info.plist;
+				INFOPLIST_FILE = Check_Ballot_Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mindmissiles.check-ballot-demo";
-				PRODUCT_NAME = Lobe;
+				PRODUCT_NAME = "Check Ballot Demo";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
